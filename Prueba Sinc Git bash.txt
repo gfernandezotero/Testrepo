@@ -1,0 +1,15 @@
+Esto es una pruba de Sinc al 28 Marzo
+
+git add .
+git commit -m 'checkpoint commit'
+git push origin main
+
+
+# Una vez clonado el repositorio, estarás trabajando dentro de la rama por defecto (Por defecto es `main`)
+git clone https://github.com/<git-usuario>/<nombre-repo> && cd <nombre-repo>
+# Haz cambios y agrega tus archivos (repite el comando `git add` por cada archivo, o utiliza `git add .` para agregarlos todos)
+git add <nombre-archivo>
+# Ahora haz el commit de tu código
+git commit -m "Agregué cambios a mi repo!"
+# Sube los cambios en la rama 'main' a github
+git push origin main
